@@ -1,0 +1,341 @@
+{
+  "version": "1.0",
+  "last_updated": "2025-12-29T19:35:00Z",
+  "brands": {
+    "spyder": {
+      "name": "Spyder",
+      "category": "Ski Apparel & Technical Wear",
+      "price_tier": "Premium",
+      "website": "https://www.spyder.com",
+      "best_sellers": [
+        "Titania Jacket (all colors)",
+        "Eider Down Jackets",
+        "Speed Suit Racewear"
+      ],
+      "deal_patterns": {
+        "seasonal_sales": "Post-holiday (Jan), Spring clearance (Apr-May)",
+        "flash_sales": "Occasional email promotions (10-15% off)",
+        "retail_partnerships": "Peter Glenn, REI, Backcountry",
+        "insider_code": "Monitor @spyder Instagram for drops",
+        "estimated_max_discount": "30-40% at secondary retailers during clearance"
+      },
+      "fit_notes": "Runs true-to-size, women's fit is contoured",
+      "return_policy": "60 days full return",
+      "shipping": "Free over $150 USD",
+      "inventory_speed": "Popular sizes sell out within 48 hours during sales"
+    },
+    "volcom": {
+      "name": "Volcom",
+      "category": "Snowboard Lifestyle & Technical Gear",
+      "price_tier": "Mid-to-Premium",
+      "website": "https://www.volcomsnow.com",
+      "best_sellers": [
+        "Insulated Jackets",
+        "Tech Pants",
+        "Base Layers"
+      ],
+      "deal_patterns": {
+        "seasonal_sales": "Flash 50% sitewide (FLASH50 code confirmed as of Jan 2025)",
+        "flash_sales": "Reddit community alerts - check r/snowboarding",
+        "retail_partnerships": "Tactics, Evo, Zumiez",
+        "current_promo": "FLASH50 - 50% off sitewide (verified Dec 29, 2025)",
+        "estimated_max_discount": "60% in-store, 50% online"
+      },
+      "fit_notes": "Runs large, size down one",
+      "return_policy": "60 days full return",
+      "shipping": "Variable by retailer",
+      "inventory_speed": "Low-key drops on Instagram, high alert value"
+    },
+    "the_north_face": {
+      "name": "The North Face",
+      "category": "Outdoor Apparel & Equipment",
+      "price_tier": "Mid-to-Premium",
+      "website": "https://www.thenorthface.com",
+      "best_sellers": [
+        "ThermoBall Jackets",
+        "Mountain Jackets",
+        "Fleece Layers"
+      ],
+      "deal_patterns": {
+        "seasonal_sales": "Consistent winter clearance Jan-Feb",
+        "flash_sales": "Email subscriber-only sales",
+        "retail_partnerships": "REI, Dick's, Dick's Sporting Goods",
+        "member_benefits": "REI members get additional 10-20% off",
+        "estimated_max_discount": "40-50% during seasonal clearance"
+      },
+      "fit_notes": "True-to-size, slightly roomier cut",
+      "return_policy": "60 days full return",
+      "shipping": "Free over $100",
+      "inventory_speed": "Slow sell-out, consistent availability"
+    },
+    "686": {
+      "name": "686",
+      "category": "Snowboard-Specific Technical Wear",
+      "price_tier": "Mid-Premium",
+      "website": "https://686.com",
+      "best_sellers": [
+        "Forest Bailey Insulated Jacket",
+        "Geo Insulated Pants",
+        "Bonded Fleece Tops"
+      ],
+      "deal_patterns": {
+        "seasonal_sales": "End-of-season clearance (Jan-Feb)",
+        "flash_sales": "Occasional email codes (15% off)",
+        "retail_partnerships": "Tactics, Evo, Zumiez",
+        "direct_sales": "Direct-to-consumer model favored",
+        "estimated_max_discount": "35-45% during clearance"
+      },
+      "fit_notes": "Snowboard-fit (roomier through hips/thighs)",
+      "return_policy": "30-60 days depending on purchase source",
+      "shipping": "Variable, but DTC often free over $75",
+      "inventory_speed": "Limited drops, cult following"
+    },
+    "supreme": {
+      "name": "Supreme",
+      "category": "Streetwear with Ski Culture Crossover",
+      "price_tier": "Premium (Limited)",
+      "website": "https://www.supremenewyork.com",
+      "best_sellers": [
+        "Mountain Jacket Collaborations",
+        "Limited Snowboard Decks",
+        "Technical Collab Pieces"
+      ],
+      "deal_patterns": {
+        "seasonal_sales": "No official discounts (brand policy)",
+        "flash_sales": "Thursday drops (limited release model)",
+        "retail_partnerships": "Select skate/snow shops only",
+        "secondary_market": "Grailed, Depop, Vestiaire (price varies wildly)",
+        "estimated_max_discount": "0-70% on secondary market depending on demand"
+      },
+      "fit_notes": "True-to-size, oversized aesthetic",
+      "return_policy": "Original retailer dependent",
+      "shipping": "Variable",
+      "inventory_speed": "Sells out within minutes (bots active)",
+      "insider_notes": "Collabs with The North Face, VANS are collectable"
+    },
+    "vokl": {
+      "name": "VOKL",
+      "category": "Performance Ski Equipment",
+      "price_tier": "Premium",
+      "website": "https://www.volkl.com",
+      "best_sellers": [
+        "Mantra Skis",
+        "Deacon Skis",
+        "M5 Freeride Skis"
+      ],
+      "deal_patterns": {
+        "seasonal_sales": "End-of-season binding packages (Feb-Mar)",
+        "flash_sales": "Rare, usually email-only",
+        "retail_partnerships": "Powder7, Backcountry, ski shops",
+        "package_deals": "Skis + bindings bundles offer better value",
+        "estimated_max_discount": "20-30% during clearance, best via ski packages"
+      },
+      "fit_notes": "Equipment-specific: Mantra = all-mountain, Deacon = carving",
+      "return_policy": "Retailer dependent",
+      "shipping": "Typically free over $100",
+      "inventory_speed": "Moderate - popular models can take weeks to restock",
+      "insider_notes": "Binding compatibility critical - verify at time of purchase"
+    },
+    "blizzard": {
+      "name": "Blizzard",
+      "category": "Premium Ski Equipment",
+      "price_tier": "Premium",
+      "website": "https://www.blizzard-skis.com",
+      "best_sellers": [
+        "Rustler Skis (intermediate)",
+        "Black Pearl Skis (women)",
+        "Brahma Skis (powder)"
+      ],
+      "deal_patterns": {
+        "seasonal_sales": "End-of-model-year clearance (Mar-Apr)",
+        "flash_sales": "Retailer-driven, not brand-driven",
+        "retail_partnerships": "Ski shops, Backcountry, REI",
+        "current_models": "2024-25 season stock is primary focus",
+        "estimated_max_discount": "25-35% during end-of-year clearance"
+      },
+      "fit_notes": "Black Pearl runs playful, Brahma runs aggressive",
+      "return_policy": "Retailer dependent",
+      "shipping": "Typically free over $100, but heavy item fees may apply",
+      "inventory_speed": "Slow sell-out, consistent availability year-round",
+      "insider_notes": "Best prices usually at independent ski shops, not direct"
+    }
+  },
+  "retailers": {
+    "direct_brand_sites": [
+      {
+        "name": "Spyder Official",
+        "url": "https://www.spyder.com",
+        "shipping": "Free > $150 USD",
+        "return": "60 days",
+        "notes": "Pricing authority, inventory truth source"
+      },
+      {
+        "name": "Volcom Official",
+        "url": "https://www.volcomsnow.com",
+        "shipping": "Variable",
+        "return": "60 days",
+        "notes": "Current FLASH50 code = 50% off"
+      },
+      {
+        "name": "The North Face Official",
+        "url": "https://www.thenorthface.com",
+        "shipping": "Free > $100",
+        "return": "60 days",
+        "notes": "Member-only sales available"
+      },
+      {
+        "name": "686 Official",
+        "url": "https://686.com",
+        "shipping": "Free > $75",
+        "return": "60 days",
+        "notes": "Direct-to-consumer, good for brand exclusives"
+      },
+      {
+        "name": "Supreme Official",
+        "url": "https://www.supremenewyork.com",
+        "shipping": "Variable",
+        "return": "60 days",
+        "notes": "No discounts ever - Thursday drops only"
+      },
+      {
+        "name": "VOKL Official",
+        "url": "https://www.volkl.com",
+        "shipping": "Free > $100",
+        "return": "Retailer dependent",
+        "notes": "Better deals via retail partners"
+      },
+      {
+        "name": "Blizzard Official",
+        "url": "https://www.blizzard-skis.com",
+        "shipping": "Free > $100 (heavy items excluded)",
+        "return": "Retailer dependent",
+        "notes": "Better deals via ski shops"
+      }
+    ],
+    "multi_brand_retailers": [
+      {
+        "name": "Peter Glenn",
+        "url": "https://peterglenn.com",
+        "specialty": "Spyder + Obermeyer focus",
+        "shipping": "Variable",
+        "return": "60 days",
+        "deal_level": "HIGH - Often 30-50% off Spyder",
+        "notes": "Best secondary source for Spyder, check daily"
+      },
+      {
+        "name": "REI Co-op",
+        "url": "https://www.rei.com",
+        "specialty": "Outdoor omni-channel",
+        "shipping": "Free 2-day shipping for members",
+        "return": "1 year",
+        "deal_level": "MEDIUM - Member discounts stack",
+        "notes": "Best for price-matching, member co-op dividends"
+      },
+      {
+        "name": "Sierra",
+        "url": "https://www.sierra.com",
+        "specialty": "Sporting goods clearance",
+        "shipping": "Variable",
+        "return": "60 days",
+        "deal_level": "HIGH - Up to 50% off",
+        "notes": "Outlet pricing, good for seconds"
+      },
+      {
+        "name": "Dick's Sporting Goods",
+        "url": "https://www.dickssportinggoods.com",
+        "specialty": "National sporting goods chain",
+        "shipping": "Free > $99",
+        "return": "60 days",
+        "deal_level": "MEDIUM - Price match available",
+        "notes": "ScoreCard members get discounts, price match powerful"
+      },
+      {
+        "name": "Backcountry",
+        "url": "https://www.backcountry.com",
+        "specialty": "Premium outdoor & ski",
+        "shipping": "Free over $49",
+        "return": "60 days",
+        "deal_level": "MEDIUM - Seasonal sales",
+        "notes": "Good for skis/equipment, brand discounts vary"
+      },
+      {
+        "name": "Evo",
+        "url": "https://www.evo.com",
+        "specialty": "Snowboard-focused",
+        "shipping": "Free > $50 (limited US)",
+        "return": "60 days",
+        "deal_level": "MEDIUM - Snowboard specials",
+        "notes": "West Coast shop, strong snowboard culture connections"
+      },
+      {
+        "name": "Tactics",
+        "url": "https://www.tactics.com",
+        "specialty": "Snowboard & skate",
+        "shipping": "Variable",
+        "return": "60 days",
+        "deal_level": "MEDIUM - Occasional flash sales",
+        "notes": "Good for 686 & Volcom, community alerts"
+      },
+      {
+        "name": "Powder7",
+        "url": "https://www.powder7.com",
+        "specialty": "Ski equipment specialist",
+        "shipping": "Variable",
+        "return": "60 days",
+        "deal_level": "MEDIUM - Ski package discounts",
+        "notes": "Best for VOKL & Blizzard skis, often beats direct pricing"
+      }
+    ],
+    "deal_aggregators": [
+      {
+        "name": "Honey",
+        "url": "https://www.joinhoney.com",
+        "type": "Browser extension",
+        "value": "Auto-applies coupon codes at checkout",
+        "notes": "Check cashback portal for 2-3% extra back"
+      },
+      {
+        "name": "RetailMeNot",
+        "url": "https://www.retailmenot.com",
+        "type": "Coupon aggregator",
+        "value": "Community-sourced coupon codes",
+        "notes": "Check timestamps - old codes often expired"
+      },
+      {
+        "name": "SlickDeals",
+        "url": "https://www.slickdeals.net",
+        "type": "Deal community",
+        "value": "Hot deals posted within hours",
+        "notes": "Set email alerts for ski/snowboard"
+      },
+      {
+        "name": "CamelCamelCamel",
+        "url": "https://camelcamelcamel.com",
+        "type": "Price history tracker (Amazon)",
+        "value": "See historical pricing patterns",
+        "notes": "Not all retailers tracked, but useful for Amazon items"
+      },
+      {
+        "name": "Rakuten",
+        "url": "https://www.rakuten.com",
+        "type": "Cashback portal",
+        "value": "2-5% cashback on purchases",
+        "notes": "Often has bonus categories - watch for ski seasonal"
+      }
+    ]
+  },
+  "pro_tips": [
+    "Check at 2 AM EST - retailers restock overnight (true for most sites)",
+    "Use incognito mode - avoids price surge from tracking cookies",
+    "Call customer service - they have real inventory before website updates",
+    "Screenshot everything - prices change within 2-4 hours",
+    "Stack discounts - Spyder 25% off + REI member 10% + coupon code 5% = 40%+",
+    "Women's XS/S sizes are volatility - set hourly alerts during sales",
+    "Follow brand Instagram accounts - new drops announced 24 hrs before major sales",
+    "Reddit r/snowboarding posts deals same-day - join community alerts",
+    "Return policies: Most good for 60 days - use this as free try-on period",
+    "Free shipping thresholds - sometimes better to add small item than pay shipping",
+    "Email subscribers only promotions - worth signing up to brand lists",
+    "Price match guarantees - Dick's, REI, and others have them - leverage"
+  ]
+}
