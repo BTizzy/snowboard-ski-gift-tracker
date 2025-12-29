@@ -1,0 +1,135 @@
+{
+  "version": "1.0",
+  "last_updated": "2025-12-29T19:35:00Z",
+  "items": [
+    {
+      "id": "SPY-001",
+      "name": "Spyder Titania Hooded Jacket - Polar White",
+      "brand": "Spyder",
+      "category": "Ski Jacket - Women",
+      "size": "S (Small)",
+      "color": "Polar White",
+      "MSRP": 595,
+      "target_price": 420,
+      "target_price_discount_percent": 29,
+      "specs": {
+        "waterproofing": "30K",
+        "breathability": "20K",
+        "material": "EXO SHIELD",
+        "insulation": "None (shell)",
+        "fit": "Women-specific",
+        "hood": "Removable"
+      },
+      "gift_for": "Test item - Validate tracking framework",
+      "status": "active_tracking",
+      "priority": 1,
+      "tracking_data": [
+        {
+          "date": "2025-12-29",
+          "retailer": "Spyder Official",
+          "url": "https://www.spyder.com/products/womens-titania-jacket-white",
+          "price": 595,
+          "discount_percent": 0,
+          "stock_status": "In Stock",
+          "sizes_available": ["XS", "S", "M", "L"],
+          "shipping_cost": "FREE (>$150)",
+          "shipping_time": "5-7 business days",
+          "return_policy": "60 days",
+          "verified": true,
+          "notes": "Official source, free shipping qualifies, runs true-to-size"
+        },
+        {
+          "date": "2025-12-29",
+          "retailer": "Peter Glenn",
+          "url": "https://peterglenn.com/womens/jackets/",
+          "price": null,
+          "discount_percent": null,
+          "stock_status": "Needs verification",
+          "sizes_available": null,
+          "shipping_cost": "TBD",
+          "shipping_time": "TBD",
+          "return_policy": "TBD",
+          "verified": false,
+          "notes": "Listed Spyder, up to 50% off potential, requires direct search"
+        },
+        {
+          "date": "2025-12-29",
+          "retailer": "REI Co-op",
+          "url": "https://www.rei.com/search?q=spyder+titania+jacket",
+          "price": null,
+          "discount_percent": null,
+          "stock_status": "Needs verification",
+          "sizes_available": null,
+          "shipping_cost": "FREE (members)",
+          "shipping_time": "2-day free option available",
+          "return_policy": "1 year",
+          "verified": false,
+          "notes": "Member-exclusive benefits, historical pricing available"
+        },
+        {
+          "date": "2025-12-29",
+          "retailer": "Sierra",
+          "url": "https://www.sierra.com/s~waterproof-and-insulated/womens-ski-and-snowboard-jackets~d~11718/spyder~b~19620/",
+          "price": null,
+          "discount_percent": null,
+          "stock_status": "Needs verification",
+          "sizes_available": null,
+          "shipping_cost": "TBD",
+          "shipping_time": "TBD",
+          "return_policy": "TBD",
+          "verified": false,
+          "notes": "Sporting goods outlet, known for clearance pricing"
+        },
+        {
+          "date": "2025-12-29",
+          "retailer": "Dick's Sporting Goods",
+          "url": "https://www.dickssportinggoods.com/search?q=spyder+titania+jacket",
+          "price": null,
+          "discount_percent": null,
+          "stock_status": "Needs verification",
+          "sizes_available": null,
+          "shipping_cost": "FREE ($99+)",
+          "shipping_time": "5-7 business days",
+          "return_policy": "60 days",
+          "verified": false,
+          "notes": "Price match available, ScoreCard member discounts"
+        }
+      ],
+      "alerts": [
+        {
+          "type": "price_drop",
+          "threshold": 475,
+          "active": true
+        },
+        {
+          "type": "stock_change",
+          "status": "out_of_stock",
+          "active": true,
+          "note": "Alert if small size specifically goes out"
+        },
+        {
+          "type": "coupon_code",
+          "code": null,
+          "active": true,
+          "note": "Monitor for seasonal codes"
+        }
+      ],
+      "decision_log": [
+        {
+          "date": "2025-12-29",
+          "action": "Initial tracking setup",
+          "findings": "Item available at MSRP across primary retailers. Post-holiday clearance window is active. Will monitor for price drops.",
+          "next_steps": "Check daily through January 15 (end of peak clearance season)"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "total_items_tracking": 1,
+    "total_items_purchased": 0,
+    "total_amount_saved": 0,
+    "average_discount_percent": null,
+    "update_frequency": "Daily (morning + evening)",
+    "next_scheduled_update": "2025-12-30T08:00:00Z"
+  }
+}
