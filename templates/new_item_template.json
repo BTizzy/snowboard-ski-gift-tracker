@@ -1,0 +1,140 @@
+{
+  "comment": "Use this template to add new items to tracking/items.json",
+  "template_example": {
+    "id": "NEW-XXX",
+    "name": "[Brand] [Product Name] [Color] [Details]",
+    "brand": "[Brand Name]",
+    "category": "[e.g., 'Ski Jacket - Women', 'Snowboard - Unisex', 'Boots - Men']",
+    "size": "[Size]",
+    "color": "[Color]",
+    "MSRP": 0,
+    "target_price": 0,
+    "target_price_discount_percent": 0,
+    "specs": {
+      "comment": "Optional: Add key technical specs",
+      "material": "[e.g., Gore-Tex, EXO Shield]",
+      "feature_1": "value",
+      "feature_2": "value"
+    },
+    "gift_for": "[Recipient or purpose]",
+    "status": "active_tracking",
+    "priority": 1,
+    "tracking_data": [
+      {
+        "date": "YYYY-MM-DD",
+        "retailer": "[Retailer Name]",
+        "url": "https://...",
+        "price": null,
+        "discount_percent": null,
+        "stock_status": "Needs verification",
+        "sizes_available": null,
+        "shipping_cost": "TBD",
+        "shipping_time": "TBD",
+        "return_policy": "TBD",
+        "verified": false,
+        "notes": "Initial entry"
+      },
+      {
+        "comment": "Duplicate this block for each retailer to track",
+        "date": "YYYY-MM-DD",
+        "retailer": "[Another Retailer]",
+        "url": "https://...",
+        "price": null,
+        "discount_percent": null,
+        "stock_status": "Needs verification",
+        "sizes_available": null,
+        "shipping_cost": "TBD",
+        "shipping_time": "TBD",
+        "return_policy": "TBD",
+        "verified": false,
+        "notes": ""
+      }
+    ],
+    "alerts": [
+      {
+        "type": "price_drop",
+        "threshold": 0,
+        "active": true
+      },
+      {
+        "type": "stock_change",
+        "status": "out_of_stock",
+        "active": true,
+        "note": "Alert if [specific size] goes out"
+      },
+      {
+        "type": "coupon_code",
+        "code": null,
+        "active": true,
+        "note": "Monitor for seasonal codes"
+      }
+    ],
+    "decision_log": [
+      {
+        "date": "YYYY-MM-DD",
+        "action": "Initial tracking setup",
+        "findings": "[What you found during initial research]",
+        "next_steps": "[What to check next]"
+      }
+    ]
+  },
+  "quick_start": {
+    "step_1": "Copy the template_example object",
+    "step_2": "Replace all [bracketed] values with actual data",
+    "step_3": "For each retailer you want to track, add a tracking_data entry",
+    "step_4": "Set MSRP (manufacturer retail price)",
+    "step_5": "Set target_price (what you want to pay max)",
+    "step_6": "Calculate target_price_discount_percent = ((MSRP - target_price) / MSRP) * 100",
+    "step_7": "Save to tracking/items.json (add to items array)",
+    "step_8": "Run scripts/monitor_inventory.py to verify setup"
+  },
+  "retailer_checklist": {
+    "for_each_item": [
+      "[ ] Official brand website",
+      "[ ] Peter Glenn (if Spyder)",
+      "[ ] REI (if available)",
+      "[ ] Sierra (outlet)",
+      "[ ] Dick's Sporting Goods",
+      "[ ] Backcountry (if applicable)",
+      "[ ] Brand-specific partners (Tactics, Evo, etc.)"
+    ]
+  },
+  "status_options": [
+    "active_tracking - Monitoring daily",
+    "on_hold - Waiting for better timing",
+    "purchased - Deal completed",
+    "archived - No longer seeking"
+  ],
+  "priority_scale": "1=High, 2=Medium, 3=Low",
+  "examples": {
+    "women_jacket": {
+      "id": "SPY-001",
+      "name": "Spyder Titania Hooded Jacket - Polar White",
+      "brand": "Spyder",
+      "category": "Ski Jacket - Women",
+      "size": "S (Small)",
+      "color": "Polar White",
+      "MSRP": 595,
+      "target_price": 420,
+      "note": "See tracking/items.json for full example"
+    },
+    "mens_snowboard": {
+      "name": "Volcom [Model] Snowboard - [Size]",
+      "brand": "Volcom",
+      "category": "Snowboard - Men",
+      "size": "156cm",
+      "MSRP": 500,
+      "target_price": 300,
+      "note": "Template pattern for future use"
+    },
+    "skis_package": {
+      "name": "VOKL Mantra + Binding Package - [Size]",
+      "brand": "VOKL",
+      "category": "Ski Equipment Package",
+      "size": "170cm",
+      "MSRP": 800,
+      "target_price": 600,
+      "note": "Bundle pricing often better than a la carte"
+    }
+  }
+}
